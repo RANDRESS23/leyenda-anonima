@@ -1,8 +1,10 @@
 import { create } from 'zustand'
 
-interface Character {
+export interface Character {
   name: string;
   description: string;
+  category: string;
+  level: string;
   hint: string;
   images: string[];
 }
